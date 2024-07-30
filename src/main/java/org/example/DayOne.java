@@ -1,6 +1,8 @@
 package org.example;
 
 /**
+ * Day 1
+ *
  * What is an object?
  *  state:
  *  behaviors: functions
@@ -51,9 +53,7 @@ package org.example;
  *                   red crab   herb crab
  *                          |  /
  *                        blue crab
- *
  *  inheritance: code reusability
- *
  *
  *  primitive type vs wrapper type -> wrapper type has more functions you can use
  *  primitive type   default value     length

@@ -1,5 +1,5 @@
 package org.example;
-
+//Day 1
 //child can use extends to implement abstract class
 // you can extend only one abstract class
 

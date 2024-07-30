@@ -1,4 +1,6 @@
 package org.example;
+
+//Day 1
 // suppose a child to implement interface(s)
 // you can implement more than one interface
 // keywork implment should be used in your child class
