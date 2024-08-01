@@ -161,6 +161,32 @@ import java.util.*;
  *     new cap = old * 2
  *
  *
+ *hashmap ->[[node1]....]
+ *              |
+ *              element1
+ *              \element2 ... 8
+ *              greater  1M elements
+ *
+ * average case in hashmap:
+ *  insertion: put() : O(1)
+ *  delete: remove(): O(1)
+ *  search: get(): O(1)
+ *
+ *  worst case in hashmap:
+ *  insertion: O(N) ->
+ *  delete:O(N)
+ *  search:O(N)
+ *
+ *  treeMap -> sorted
+ *
+ *  hash set -> unique values
+ *
+ *  tree set -> sorted hash set
+ *  hashset vs tree set
+ *  can we have null value in tree set and hashset?
+ *
+ *  hashset allows you to insert null value, whereas treeset you cann't have null value
+ *
  *
  *
  *
