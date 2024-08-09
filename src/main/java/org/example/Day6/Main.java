@@ -57,6 +57,23 @@ import java.util.concurrent.atomic.AtomicInteger;
  * thread B -> thread B read value V1 and update value V3 at time 3
  *
  * AtomicStampedReference
+ *
+ * they asked:
+ *  if you are given int i =0; and two threads, write for updating value of i and read thread for reading value of i
+ *
+ *
+ *  what will happen?
+ *  lack of sync, read thread may have a wrong value of i
+ *  what if we put volatile keyword with int 1?
+ *  what will happen?
+ *  the read thread will ALWAYS see the most recent value -> why? ->
+ *   any update to value i will be immediately visible to other threads -> in this case, read thread can see updates
+ *   **** this not atomic operation!!!!!******
+ *
+ *   what if we put atomicInteger with i?
+ *   the reader thread will AWAYS see the up-to-date value of i
+ *
+ *
  */
 public class Main {
     public static void main(String[] args) { // -> main thread
