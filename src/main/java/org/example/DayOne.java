@@ -82,8 +82,8 @@ package org.example;
  *              class   package         subclass        world(global)
  * public:        Y         Y               Y               Y
  * protected:     Y         Y               Y               N
- * default:       Y        Y                N               N
- * private:       Y        N                 N               N
+ * default:       Y         Y                N               N
+ * private:       Y         N                 N               N
  *
  * does Java use pass by value of pass by reference?
  *  Java always use pass by reference
